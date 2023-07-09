@@ -14,9 +14,9 @@ function NavBar() {
       <NavLink style={ getActive } to="/">
         Home
       </NavLink>
-      <NavLink style={ getActive } to="/page">
+      {/* <NavLink style={ getActive } to="/page">
         page2
-      </NavLink>
+      </NavLink> */}
     </div>
   );
 }
